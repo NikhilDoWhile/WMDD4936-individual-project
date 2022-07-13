@@ -1,0 +1,44 @@
+WMDD 4936 Midterm exam instruction (Summer 2022)
+
+This exam involves creating a MERN stack app using the MongoDB database, Node.js with Express, and React.js.
+
+It is recommended you start from the top of the instruction and follow the order. But you should plan ahead and manage your time well so that you won’t spend too much time on one component.
+
+The deadline for the submission is 6:30pm sharp. You should stop coding a few minutes before the deadline and push your code to the GitHub classroom.
+
+Backend:
+- connection.js (5)
+
+Enter your own MongoDB connection string
+
+- models/Todo.js (20)
+
+Create a new schema and export it
+
+- app.js (25)
+
+Create an Express middleware to serve a static folder 
+
+Write Get and Post API endpoints
+
+Frontend:
+* Styling is not a part of this exam. You do not need to change or add anything on src/style.css
+
+- index.html 
+
+Change the title to include your name (no mark is assigned, but 1 point will be deducted if the title is not changed)
+
+- GetToDoItems.js (20)
+
+Write a hook to get data from the database
+
+- PostToDoItems.js / App.js (30)
+
+Write functions to handle form inputs and form submission, then send that data to the API
+
+Write JSX to map the array to label and checkbox
+
+Note: Feel free to create additional state variables and props as needed
+
+Bonus:
+Make the delete button functional (5)
