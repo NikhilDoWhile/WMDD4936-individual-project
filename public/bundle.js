@@ -8519,10 +8519,10 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./src/App.js":
-/*!********************!*\
-  !*** ./src/App.js ***!
-  \********************/
+/***/ "./view/App.js":
+/*!*********************!*\
+  !*** ./view/App.js ***!
+  \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -8542,10 +8542,10 @@ var App = function App(props) {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/style.css":
-/*!*************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
-  \*************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./view/style.css":
+/*!**************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./view/style.css ***!
+  \**************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -8561,17 +8561,17 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* You do not need to change anything on this file */\r\n\r\nhtml {\r\n    font-family: sans-serif;\r\n}\r\n\r\nh1, h2 {\r\n    margin: 2rem;\r\n    color:darkmagenta;\r\n}\r\n\r\nh2 {\r\n    margin-top: 4rem;\r\n    margin-bottom: 0;\r\n}\r\n\r\nform {\r\n    margin: 2rem;\r\n}\r\n\r\nform > label {\r\n    display: grid;\r\n    grid-template-columns: 1fr;\r\n    grid-template-rows: repeat(2, 1fr);\r\n}\r\n\r\nform > label input {\r\n    width: 30%;\r\n    height: 1.3rem;\r\n}\r\n\r\nlabel {\r\n    font-weight:bolder;\r\n}\r\n\r\nfieldset {\r\n    width: 20%;\r\n    margin: 2rem 0;\r\n}\r\n\r\nfieldset label {\r\n    display: grid;\r\n    grid-template-columns: repeat(2, 1fr);\r\n}\r\n\r\nform button {\r\n    width: 5rem;\r\n    height: 1.8rem;\r\n    background-color:darkblue;\r\n    color: white;\r\n    border-radius: 50px;\r\n}\r\n\r\nform button {\r\n    margin-left: 1rem;\r\n}\r\n\r\nul li {\r\n    display: grid;\r\n    grid-template-columns: repeat(3, 1fr);\r\n    border: 1px solid darkmagenta;\r\n    padding: 0.2rem;\r\n    align-items: center;\r\n    margin-bottom: 5px;\r\n}\r\n\r\nli button {\r\n    width: 5rem;\r\n    height: 1.8rem;\r\n    background-color:darkblue;\r\n    color: white;\r\n    border-radius: 50px;\r\n}\r\n\r\nbutton + input {\r\n    width: 5rem;\r\n    height: 1.8rem;\r\n    background-color:darkcyan;\r\n    color: white;\r\n    border-radius: 50px;\r\n    margin-left: 1rem;\r\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA,oDAAoD;;AAEpD;IACI,uBAAuB;AAC3B;;AAEA;IACI,YAAY;IACZ,iBAAiB;AACrB;;AAEA;IACI,gBAAgB;IAChB,gBAAgB;AACpB;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,aAAa;IACb,0BAA0B;IAC1B,kCAAkC;AACtC;;AAEA;IACI,UAAU;IACV,cAAc;AAClB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,UAAU;IACV,cAAc;AAClB;;AAEA;IACI,aAAa;IACb,qCAAqC;AACzC;;AAEA;IACI,WAAW;IACX,cAAc;IACd,yBAAyB;IACzB,YAAY;IACZ,mBAAmB;AACvB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,aAAa;IACb,qCAAqC;IACrC,6BAA6B;IAC7B,eAAe;IACf,mBAAmB;IACnB,kBAAkB;AACtB;;AAEA;IACI,WAAW;IACX,cAAc;IACd,yBAAyB;IACzB,YAAY;IACZ,mBAAmB;AACvB;;AAEA;IACI,WAAW;IACX,cAAc;IACd,yBAAyB;IACzB,YAAY;IACZ,mBAAmB;IACnB,iBAAiB;AACrB","sourcesContent":["/* You do not need to change anything on this file */\r\n\r\nhtml {\r\n    font-family: sans-serif;\r\n}\r\n\r\nh1, h2 {\r\n    margin: 2rem;\r\n    color:darkmagenta;\r\n}\r\n\r\nh2 {\r\n    margin-top: 4rem;\r\n    margin-bottom: 0;\r\n}\r\n\r\nform {\r\n    margin: 2rem;\r\n}\r\n\r\nform > label {\r\n    display: grid;\r\n    grid-template-columns: 1fr;\r\n    grid-template-rows: repeat(2, 1fr);\r\n}\r\n\r\nform > label input {\r\n    width: 30%;\r\n    height: 1.3rem;\r\n}\r\n\r\nlabel {\r\n    font-weight:bolder;\r\n}\r\n\r\nfieldset {\r\n    width: 20%;\r\n    margin: 2rem 0;\r\n}\r\n\r\nfieldset label {\r\n    display: grid;\r\n    grid-template-columns: repeat(2, 1fr);\r\n}\r\n\r\nform button {\r\n    width: 5rem;\r\n    height: 1.8rem;\r\n    background-color:darkblue;\r\n    color: white;\r\n    border-radius: 50px;\r\n}\r\n\r\nform button {\r\n    margin-left: 1rem;\r\n}\r\n\r\nul li {\r\n    display: grid;\r\n    grid-template-columns: repeat(3, 1fr);\r\n    border: 1px solid darkmagenta;\r\n    padding: 0.2rem;\r\n    align-items: center;\r\n    margin-bottom: 5px;\r\n}\r\n\r\nli button {\r\n    width: 5rem;\r\n    height: 1.8rem;\r\n    background-color:darkblue;\r\n    color: white;\r\n    border-radius: 50px;\r\n}\r\n\r\nbutton + input {\r\n    width: 5rem;\r\n    height: 1.8rem;\r\n    background-color:darkcyan;\r\n    color: white;\r\n    border-radius: 50px;\r\n    margin-left: 1rem;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* You do not need to change anything on this file */\r\n\r\nhtml {\r\n    font-family: sans-serif;\r\n}\r\n\r\nh1, h2 {\r\n    margin: 2rem;\r\n    color:darkmagenta;\r\n}\r\n", "",{"version":3,"sources":["webpack://./view/style.css"],"names":[],"mappings":"AAAA,oDAAoD;;AAEpD;IACI,uBAAuB;AAC3B;;AAEA;IACI,YAAY;IACZ,iBAAiB;AACrB","sourcesContent":["/* You do not need to change anything on this file */\r\n\r\nhtml {\r\n    font-family: sans-serif;\r\n}\r\n\r\nh1, h2 {\r\n    margin: 2rem;\r\n    color:darkmagenta;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
 /***/ }),
 
-/***/ "./src/style.css":
-/*!***********************!*\
-  !*** ./src/style.css ***!
-  \***********************/
+/***/ "./view/style.css":
+/*!************************!*\
+  !*** ./view/style.css ***!
+  \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -8590,7 +8590,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!./style.css */ "./node_modules/css-loader/dist/cjs.js!./src/style.css");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!./style.css */ "./node_modules/css-loader/dist/cjs.js!./view/style.css");
 
       
       
@@ -9016,14 +9016,14 @@ module.exports = styleTagTransform;
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/*!***********************!*\
+  !*** ./view/index.js ***!
+  \***********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./view/style.css");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _App_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App.js */ "./src/App.js");
+/* harmony import */ var _App_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App.js */ "./view/App.js");
 /* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
 
 
